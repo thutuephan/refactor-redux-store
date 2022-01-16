@@ -43,14 +43,14 @@ This app is an e-commerce site in which you can purchase products and checkout u
 
 
   ## Screenshots
-  ### 
-  ![]()
-  ### 
-  ![](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book2.png)
-  ### Book 3
-  ![](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book3.png)
-  ### Book 4
-  ![](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book4.png)
+  ### Signup
+  ![signup]()
+  ### LoggedIn and Shop
+  ![login-and-shop](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book2.png)
+  ### Checkout
+  ![checkout](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book3.png)
+  ### Payment
+  ![pay](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book4.png)
   ### Book 5
   ![](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book5.png)
 
