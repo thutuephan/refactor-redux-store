@@ -44,16 +44,14 @@ This app is an e-commerce site in which you can purchase products and checkout u
 
   ## Screenshots
   ### Signup
-  ![signup]()
+  ![signup](https://github.com/thutuephan/refactor-redux-store/blob/main/client/src/assets/signup.png)
   ### LoggedIn and Shop
-  ![login-and-shop](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book2.png)
+  ![login-and-shop](https://github.com/thutuephan/refactor-redux-store/blob/main/client/src/assets/loggedin-and-shop.png)
   ### Checkout
-  ![checkout](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book3.png)
+  ![checkout](https://github.com/thutuephan/refactor-redux-store/blob/main/client/src/assets/checkout.png)
   ### Payment
-  ![pay](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book4.png)
-  ### Book 5
-  ![](https://github.com/thutuephan/TheMERNMybfocvabh/blob/main/Assets/book5.png)
-
+  ![pay](https://github.com/thutuephan/refactor-redux-store/blob/main/client/src/assets/payment.png))
+  
   
   ## Built With
 * MongoDB
