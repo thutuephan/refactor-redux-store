@@ -12,7 +12,7 @@ import {
 
 // Move initialState into this file
 const initialState = {
-  product: [],
+  products: [],
   cart: [],
   cartOpen: false,
   categories: [],
