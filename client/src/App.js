@@ -48,7 +48,7 @@ function App() {
       <Router>
         <div>
         {/*Provider will serve as the component bridge between the Redux store and our entire app, so we are going to wrap the App component with this component provided to us from the react-redux library.*/}
-          <Provider>
+          <Provider store={store}>
             <Nav />
             <Switch>
               <Route exact path="/" component={Home} />
