@@ -8,11 +8,11 @@ This app is an e-commerce site in which you can purchase products and checkout u
   ## Table of Contents
   - [Description](#)
   - [Installation](#installation)
-  - [Usage](#usage)
+  - [Acceptance Criteria](#acceptance)
   - [Links](#links)
   - [Screenshots](#screenshots)
   - [Credits](#credits)
-  - [Reference and Tutorials](#reference)
+  - [Reference and Tutorials](#referenceandtutorials)
   - [License](#license)
 
   ## Installation
