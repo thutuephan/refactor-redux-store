@@ -15,7 +15,7 @@ const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
 const Cart = () => {
   const dispatch = useDispatch();
-  const state = useSelector(state => state) //useSelector is a function that takes the current state as an argument and returns whatever data you want from it
+  const state = useSelector((state) => state) //useSelector is a function that takes the current state as an argument and returns whatever data you want from it
   const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
 
   useEffect(() => {

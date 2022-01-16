@@ -14,8 +14,8 @@ function CategoryMenu() {
 //  const [state, dispatch] = useStoreContext();
 // use useDispatch and useSelector hook from redux, refactor 
   const dispatch = useDispatch();
-  const state = useSelector((state) => (state));
-  
+  const state = useSelector((state) => state);
+
   const { categories } = state;
 
   const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
