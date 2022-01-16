@@ -24,7 +24,7 @@ This app is an e-commerce site in which you can purchase products and checkout u
 
   ## Links
   * The URL of the GitHub repository: https://github.com/thutuephan/refactor-redux-store
-  * The heroku URL of the functional, deployed application: 
+  * The heroku URL of the functional, deployed application:https://mighty-lowlands-36634.herokuapp.com/
 
   ## Acceptance Criteria
     
