@@ -10,14 +10,14 @@ import { setContext } from '@apollo/client/link/context';
 
 // Added additional package for redux
 import { useDispatch, useSelector } from 'react-redux';
-
+import { Provider } from 'react-redux';
 import Home from './pages/Home';
 import Detail from './pages/Detail';
 import NoMatch from './pages/NoMatch';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Nav from './components/Nav';
-import { StoreProvider } from './utils/GlobalState';
+// import { StoreProvider } from './utils/GlobalState';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 
@@ -46,7 +46,8 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          <StoreProvider>
+        {/*Provider will serve as the component bridge between the Redux store and our entire app, so we are going to wrap the App component with this component provided to us from the react-redux library.*/}
+          <Provider>
             <Nav />
             <Switch>
               <Route exact path="/" component={Home} />
@@ -57,7 +58,7 @@ function App() {
               <Route exact path="/products/:id" component={Detail} />
               <Route component={NoMatch} />
             </Switch>
-          </StoreProvider>
+          </Provider>
         </div>
       </Router>
     </ApolloProvider>
