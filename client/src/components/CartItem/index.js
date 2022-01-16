@@ -10,7 +10,6 @@ const CartItem = ({ item }) => {
 //  const [, dispatch] = useStoreContext();
 // redux refactor, use useDispatch hook
   const dispatch = useDispatch();
-  const state = useSelector((state) => state);
 
 
   const removeFromCart = item => {
